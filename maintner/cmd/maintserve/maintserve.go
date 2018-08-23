@@ -29,8 +29,8 @@ import (
 	"github.com/shurcooL/issues"
 	maintnerissues "github.com/shurcooL/issues/maintner"
 	"github.com/shurcooL/issuesapp"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
 )
 
 var httpFlag = flag.String("http", ":8080", "Listen for HTTP connections on this address.")

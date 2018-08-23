@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package autocertcache contains autocert.Cache implementations
-// for golang.org/x/crypto/autocert.
+// for github.com/sunnogo/crypto/autocert.
 package autocertcache
 
 import (
@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/crypto/acme/autocert"
+	"github.com/sunnogo/crypto/acme/autocert"
 )
 
 // NewGoogleCloudStorageCache returns an autocert.Cache storing its cache entries
@@ -22,7 +22,7 @@ func NewGoogleCloudStorageCache(sc *storage.Client, bucket string) autocert.Cach
 }
 
 // gcsAutocertCache implements the
-// golang.org/x/crypto/acme/autocert.Cache interface using a Google
+// github.com/sunnogo/crypto/acme/autocert.Cache interface using a Google
 // Cloud Storage bucket. It assumes that autocert gets to use the
 // whole keyspace of the bucket. That is, don't reuse this bucket for
 // other purposes.

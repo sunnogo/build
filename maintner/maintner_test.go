@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/golang/protobuf/ptypes"
-	google_protobuf "github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/sunnogo/protobuf/ptypes"
+	google_protobuf "github.com/sunnogo/protobuf/ptypes/timestamp"
 	"github.com/google/go-github/github"
-	"golang.org/x/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/maintpb"
 )
 
 var u1 = &GitHubUser{

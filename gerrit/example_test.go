@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/build/gerrit"
+	"github.com/sunnogo/build/gerrit"
 )
 
 func Example() {

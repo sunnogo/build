@@ -102,12 +102,12 @@ var goPackages = []*Package{
 	{
 		Kind: "subrepo",
 		Name: "crypto",
-		Path: "golang.org/x/crypto",
+		Path: "github.com/sunnogo/crypto",
 	},
 	{
 		Kind: "subrepo",
 		Name: "debug",
-		Path: "golang.org/x/debug",
+		Path: "github.com/sunnogo/debug",
 	},
 	{
 		Kind: "subrepo",
@@ -127,12 +127,12 @@ var goPackages = []*Package{
 	{
 		Kind: "subrepo",
 		Name: "net",
-		Path: "golang.org/x/net",
+		Path: "github.com/sunnogo/net",
 	},
 	{
 		Kind: "subrepo",
 		Name: "oauth2",
-		Path: "golang.org/x/oauth2",
+		Path: "github.com/sunnogo/oauth2",
 	},
 	{
 		Kind: "subrepo",
@@ -152,7 +152,7 @@ var goPackages = []*Package{
 	{
 		Kind: "subrepo",
 		Name: "sys",
-		Path: "golang.org/x/sys",
+		Path: "github.com/sunnogo/sys",
 	},
 	{
 		Kind: "subrepo",
@@ -167,7 +167,7 @@ var goPackages = []*Package{
 	{
 		Kind: "subrepo",
 		Name: "text",
-		Path: "golang.org/x/text",
+		Path: "github.com/sunnogo/text",
 	},
 	{
 		Kind: "subrepo",
@@ -177,7 +177,7 @@ var goPackages = []*Package{
 	{
 		Kind: "subrepo",
 		Name: "tools",
-		Path: "golang.org/x/tools",
+		Path: "github.com/sunnogo/tools",
 	},
 	{
 		Kind: "subrepo",

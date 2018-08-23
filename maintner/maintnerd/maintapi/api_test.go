@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
-	"golang.org/x/build/maintner/maintnerd/apipb"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
+	"github.com/sunnogo/build/maintner/maintnerd/apipb"
 )
 
 func TestGetRef(t *testing.T) {

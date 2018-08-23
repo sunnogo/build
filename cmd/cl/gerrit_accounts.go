@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/maintner/godata"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/maintner/godata"
 )
 
 // GerritAccounts holds a mapping of Gerrit account IDs to

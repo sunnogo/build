@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/envutil"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/envutil"
 )
 
 func run(args []string) error {

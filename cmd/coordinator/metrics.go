@@ -9,9 +9,9 @@ import (
 	"log"
 	"time"
 
-	"golang.org/x/build/cmd/coordinator/metrics"
+	"github.com/sunnogo/build/cmd/coordinator/metrics"
 
-	"github.com/golang/protobuf/ptypes"
+	"github.com/sunnogo/protobuf/ptypes"
 	metpb "google.golang.org/genproto/googleapis/api/metric"
 	monpb "google.golang.org/genproto/googleapis/monitoring/v3"
 )

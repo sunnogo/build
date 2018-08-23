@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/gerrit"
+	"github.com/sunnogo/build/gerrit"
 )
 
 func main() {

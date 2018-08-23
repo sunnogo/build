@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/go/vcs"
+	"github.com/sunnogo/tools/go/vcs"
 )
 
 const (

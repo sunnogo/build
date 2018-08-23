@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
 )
 
 var (

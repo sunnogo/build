@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"text/template"
 
-	"golang.org/x/build/dashboard"
+	"github.com/sunnogo/build/dashboard"
 )
 
 func handleBuilders(w http.ResponseWriter, r *http.Request) {

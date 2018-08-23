@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/maintpb"
 )
 
 // Gerrit holds information about a number of Gerrit projects.

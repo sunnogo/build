@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/build/internal/buildgo"
+	"github.com/sunnogo/build/internal/buildgo"
 )
 
 func TestPartitionGoTests(t *testing.T) {

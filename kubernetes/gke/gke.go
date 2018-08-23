@@ -19,9 +19,9 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 
-	"golang.org/x/build/kubernetes"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
+	"github.com/sunnogo/build/kubernetes"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
 	"google.golang.org/api/container/v1"
 )
@@ -62,7 +62,7 @@ func OptZone(zoneName string) ClientOpt {
 
 // OptTokenSource sets the oauth2 token source for making
 // authenticated requests to the GKE API. If unset, the default token
-// source is used (https://godoc.org/golang.org/x/oauth2/google#DefaultTokenSource).
+// source is used (https://godoc.org/github.com/sunnogo/oauth2/google#DefaultTokenSource).
 func OptTokenSource(ts oauth2.TokenSource) ClientOpt {
 	return clientOptFunc(func(o *clientOpt) {
 		o.TokenSource = ts

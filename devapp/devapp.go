@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/build/autocertcache"
-	"golang.org/x/crypto/acme/autocert"
-	"golang.org/x/net/http2"
+	"github.com/sunnogo/build/autocertcache"
+	"github.com/sunnogo/crypto/acme/autocert"
+	"github.com/sunnogo/net/http2"
 )
 
 func init() {

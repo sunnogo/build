@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-github/github"
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/maintner"
 )
 
 func newPullRequest(title, body string) *github.PullRequest {

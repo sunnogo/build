@@ -6,7 +6,7 @@
 //
 // To install, run:
 //
-//     $ go get golang.org/x/build/version/go1.9
+//     $ go get github.com/sunnogo/build/version/go1.9
 //     $ go1.9 download
 //
 // And then use the go1.9 command as if it were your normal go
@@ -17,7 +17,7 @@
 // File bugs at https://golang.org/issues/new
 package main
 
-import "golang.org/x/build/version"
+import "github.com/sunnogo/build/version"
 
 func main() {
 	version.Run("go1.9")

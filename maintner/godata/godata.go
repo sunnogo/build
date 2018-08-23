@@ -16,7 +16,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/maintner"
 )
 
 // Get returns the Go project's corpus, containing all Git commits,
@@ -39,7 +39,7 @@ import (
 // The in-memory representation is about 25% larger than its on-disk
 // size. It's currently under 500 MB.
 //
-// See https://godoc.org/golang.org/x/build/maintner#Corpus for how
+// See https://godoc.org/github.com/sunnogo/build/maintner#Corpus for how
 // to walk the data structure. Enjoy.
 func Get(ctx context.Context) (*maintner.Corpus, error) {
 	targetDir := Dir()

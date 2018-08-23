@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/kubernetes"
-	"golang.org/x/build/kubernetes/api"
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/kubernetes"
+	"github.com/sunnogo/build/kubernetes/api"
+	"github.com/sunnogo/net/context/ctxhttp"
 )
 
 var (

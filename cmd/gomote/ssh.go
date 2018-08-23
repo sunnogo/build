@@ -13,7 +13,7 @@ import (
 	"strings"
 	"syscall"
 
-	"golang.org/x/build/internal/gophers"
+	"github.com/sunnogo/build/internal/gophers"
 )
 
 func ssh(args []string) error {

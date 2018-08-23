@@ -17,8 +17,8 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/build/maintner/maintnerd/apipb"
-	"golang.org/x/net/http2"
+	"github.com/sunnogo/build/maintner/maintnerd/apipb"
+	"github.com/sunnogo/net/http2"
 	"grpc.go4.org"
 )
 

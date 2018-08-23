@@ -13,8 +13,8 @@ import (
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"
 
-	"golang.org/x/build/app/cache"
-	"golang.org/x/build/app/key"
+	"github.com/sunnogo/build/app/cache"
+	"github.com/sunnogo/build/app/key"
 )
 
 func initHandler(w http.ResponseWriter, r *http.Request) {

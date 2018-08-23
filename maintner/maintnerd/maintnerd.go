@@ -27,16 +27,16 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 	"cloud.google.com/go/storage"
-	"golang.org/x/build/autocertcache"
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/internal/gitauth"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
-	"golang.org/x/build/maintner/maintnerd/apipb"
-	"golang.org/x/build/maintner/maintnerd/gcslog"
-	"golang.org/x/build/maintner/maintnerd/maintapi"
-	"golang.org/x/crypto/acme/autocert"
-	"golang.org/x/net/http2"
+	"github.com/sunnogo/build/autocertcache"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/internal/gitauth"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
+	"github.com/sunnogo/build/maintner/maintnerd/apipb"
+	"github.com/sunnogo/build/maintner/maintnerd/gcslog"
+	"github.com/sunnogo/build/maintner/maintnerd/maintapi"
+	"github.com/sunnogo/crypto/acme/autocert"
+	"github.com/sunnogo/net/http2"
 	"golang.org/x/time/rate"
 	grpc "grpc.go4.org"
 )
@@ -52,7 +52,7 @@ var (
 	genMut          = flag.Bool("generate-mutations", true, "whether this instance should read from upstream git/gerrit/github and generate new mutations to the end of the log. This requires network access and only one instance can be generating mutation")
 	watchGithub     = flag.String("watch-github", "", "Comma-separated list of owner/repo pairs to slurp")
 	watchGerrit     = flag.String("watch-gerrit", "", `Comma-separated list of Gerrit projects to watch, each of form "hostname/project" (e.g. "go.googlesource.com/go")`)
-	pubsub          = flag.String("pubsub", "", "If non-empty, the golang.org/x/build/cmd/pubsubhelper URL scheme and hostname, without path")
+	pubsub          = flag.String("pubsub", "", "If non-empty, the github.com/sunnogo/build/cmd/pubsubhelper URL scheme and hostname, without path")
 	config          = flag.String("config", "", "If non-empty, the name of a pre-defined config. Valid options are 'go' to be the primary Go server; 'godata' to run the server locally using the godata package, and 'devgo' to act like 'go', but mirror from godata at start-up.")
 	dataDir         = flag.String("data-dir", "", "Local directory to write protobuf files to (default $HOME/var/maintnerd)")
 	debug           = flag.Bool("debug", false, "Print debug logging information")
@@ -268,9 +268,9 @@ func main() {
 		io.WriteString(w, `<html>
 <body>
 <p>
-  This is <a href='https://godoc.org/golang.org/x/build/maintner/maintnerd'>maintnerd</a>,
-  the <a href='https://godoc.org/golang.org/x/build/maintner'>maintner</a> server.
-  See the <a href='https://godoc.org/golang.org/x/build/maintner/godata'>godata package</a> for
+  This is <a href='https://godoc.org/github.com/sunnogo/build/maintner/maintnerd'>maintnerd</a>,
+  the <a href='https://godoc.org/github.com/sunnogo/build/maintner'>maintner</a> server.
+  See the <a href='https://godoc.org/github.com/sunnogo/build/maintner/godata'>godata package</a> for
   a client.
 </p>
 <ul>

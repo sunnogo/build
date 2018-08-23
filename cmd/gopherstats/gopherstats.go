@@ -18,11 +18,11 @@ import (
 	"time"
 
 	"github.com/google/go-github/github"
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/internal/gophers"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/internal/gophers"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
+	"github.com/sunnogo/oauth2"
 )
 
 var mode = flag.String("mode", "", "mode to run in. Valid values:\n\n"+modeSummary())

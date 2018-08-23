@@ -4,7 +4,7 @@
 
 // Package buildlet contains client tools for working with a buildlet
 // server.
-package buildlet // import "golang.org/x/build/buildlet"
+package buildlet // import "github.com/sunnogo/build/buildlet"
 
 import (
 	"bufio"
@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"context"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/oauth2"
 )
 
 // NewClient returns a *Client that will manipulate ipPort,

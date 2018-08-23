@@ -5,7 +5,7 @@
 package owners
 
 import (
-	"golang.org/x/build/internal/gophers"
+	"github.com/sunnogo/build/internal/gophers"
 )
 
 func gh(githubUsername string) Owner {

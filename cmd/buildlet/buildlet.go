@@ -10,7 +10,7 @@
 // provides no security of its own. It is assumed that any user uses
 // it with an appropriately-configured firewall between their VM
 // instances.
-package main // import "golang.org/x/build/cmd/buildlet"
+package main // import "github.com/sunnogo/build/cmd/buildlet"
 
 import (
 	"archive/tar"
@@ -42,10 +42,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/envutil"
-	"golang.org/x/build/internal/httpdl"
-	"golang.org/x/build/pargzip"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/envutil"
+	"github.com/sunnogo/build/internal/httpdl"
+	"github.com/sunnogo/build/pargzip"
 )
 
 var (

@@ -47,4 +47,4 @@ The build key file is a text file of the format:
   godashboard-key
 
 */
-package main // import "golang.org/x/build/cmd/builder"
+package main // import "github.com/sunnogo/build/cmd/builder"

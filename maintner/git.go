@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/maintpb"
 )
 
 // GitHash is a git commit in binary form (NOT hex form).

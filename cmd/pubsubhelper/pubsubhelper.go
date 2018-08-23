@@ -31,8 +31,8 @@ import (
 	"github.com/bradfitz/go-smtpd/smtpd"
 	"github.com/jellevandenhooff/dkim"
 	"go4.org/types"
-	"golang.org/x/build/cmd/pubsubhelper/pubsubtypes"
-	"golang.org/x/crypto/acme/autocert"
+	"github.com/sunnogo/build/cmd/pubsubhelper/pubsubtypes"
+	"github.com/sunnogo/crypto/acme/autocert"
 )
 
 var (
@@ -117,7 +117,7 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
 	}
 	io.WriteString(w, `<html>
 <body>
-  This is <a href="https://godoc.org/golang.org/x/build/cmd/pubsubhelper">pubsubhelper</a>.
+  This is <a href="https://godoc.org/github.com/sunnogo/build/cmd/pubsubhelper">pubsubhelper</a>.
 
 <ul>
    <li><b><a href="/waitevent">/waitevent</a></b>: long-poll wait 30s for next event (use ?after=[RFC3339Nano] to resume at point)</li>

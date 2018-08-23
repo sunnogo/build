@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/build/envutil"
+	"github.com/sunnogo/build/envutil"
 )
 
 var (

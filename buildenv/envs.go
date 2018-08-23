@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
 	oauth2api "google.golang.org/api/oauth2/v2"
 )
@@ -128,7 +128,7 @@ type Environment struct {
 	MaxBuilds int
 
 	// AutoCertCacheBucket is the GCS bucket to use for the
-	// golang.org/x/crypto/acme/autocert (LetsEncrypt) cache.
+	// github.com/sunnogo/crypto/acme/autocert (LetsEncrypt) cache.
 	// If empty, LetsEncrypt isn't used.
 	AutoCertCacheBucket string
 }

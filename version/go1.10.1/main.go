@@ -6,7 +6,7 @@
 //
 // To install, run:
 //
-//     $ go get golang.org/x/build/version/go1.10.1
+//     $ go get github.com/sunnogo/build/version/go1.10.1
 //     $ go1.10.1 download
 //
 // And then use the go1.10.1 command as if it were your normal
@@ -17,7 +17,7 @@
 // File bugs at https://golang.org/issues/new
 package main
 
-import "golang.org/x/build/version"
+import "github.com/sunnogo/build/version"
 
 func main() {
 	version.Run("go1.10.1")

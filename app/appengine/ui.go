@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/types"
+	"github.com/sunnogo/build/types"
 
-	"golang.org/x/build/app/cache"
+	"github.com/sunnogo/build/app/cache"
 
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"

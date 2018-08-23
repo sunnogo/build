@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/nettest"
+	"github.com/sunnogo/net/nettest"
 )
 
 func TestDialer(t *testing.T) {

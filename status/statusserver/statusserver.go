@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/status"
+	"github.com/sunnogo/build/status"
 )
 
 // Handler is the status server handler.

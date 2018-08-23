@@ -30,8 +30,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/build/internal/httpdl"
-	"golang.org/x/build/internal/untar"
+	"github.com/sunnogo/build/internal/httpdl"
+	"github.com/sunnogo/build/internal/untar"
 )
 
 // This lets us be lazy and put the stage0 start-up in rc.local where

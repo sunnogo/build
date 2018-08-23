@@ -9,7 +9,7 @@ package gophers
 import (
 	"strings"
 
-	"golang.org/x/build/gerrit"
+	"github.com/sunnogo/build/gerrit"
 )
 
 type Person struct {

@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/maintnerd/apipb"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/maintnerd/apipb"
 )
 
 // NewAPIService creates a gRPC Server that serves the Maintner API for the given corpus.

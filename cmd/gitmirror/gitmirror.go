@@ -36,11 +36,11 @@ import (
 	"time"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/internal/gitauth"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/internal/gitauth"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
 )
 
 const (
@@ -1349,7 +1349,7 @@ func readKey() (string, error) {
 
 // subrepoList fetches a list of sub-repositories from the dashboard
 // and returns them as a slice of base import paths.
-// Eg, []string{"golang.org/x/tools", "golang.org/x/net"}.
+// Eg, []string{"github.com/sunnogo/tools", "github.com/sunnogo/net"}.
 func subrepoList() ([]string, error) {
 	if !*network {
 		return nil, nil

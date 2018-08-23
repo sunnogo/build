@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package main // import "golang.org/x/build/cmd/coordinator/buildongce"
+package main // import "github.com/sunnogo/build/cmd/coordinator/buildongce"
 
 import (
 	"bytes"
@@ -16,9 +16,9 @@ import (
 	"time"
 
 	monapi "cloud.google.com/go/monitoring/apiv3"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/cmd/coordinator/metrics"
-	"golang.org/x/build/internal/buildgo"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/cmd/coordinator/metrics"
+	"github.com/sunnogo/build/internal/buildgo"
 	dm "google.golang.org/api/deploymentmanager/v2"
 	"google.golang.org/api/option"
 	monpb "google.golang.org/genproto/googleapis/monitoring/v3"

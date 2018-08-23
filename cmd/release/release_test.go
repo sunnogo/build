@@ -7,7 +7,7 @@ package main
 import (
 	"testing"
 
-	"golang.org/x/build/dashboard"
+	"github.com/sunnogo/build/dashboard"
 )
 
 func TestBuildersExist(t *testing.T) {

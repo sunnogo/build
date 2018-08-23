@@ -22,9 +22,9 @@ import (
 
 	"google.golang.org/appengine/datastore"
 
-	"golang.org/x/build/app/cache"
+	"github.com/sunnogo/build/app/cache"
 
-	"golang.org/x/build/internal/loghash"
+	"github.com/sunnogo/build/internal/loghash"
 )
 
 const (

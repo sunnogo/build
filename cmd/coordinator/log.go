@@ -12,7 +12,7 @@ import (
 
 	"cloud.google.com/go/datastore"
 
-	"golang.org/x/build/types"
+	"github.com/sunnogo/build/types"
 )
 
 // Process is a datastore record about the lifetime of a coordinator process.

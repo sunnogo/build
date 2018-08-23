@@ -88,7 +88,7 @@ func main() {
 			"net.a",
 			"net",
 			"runtime/cgo.a",
-			"vendor/golang.org/x/net":
+			"vendor/github.com/sunnogo/net":
 			return remove()
 		}
 		switch rel {
@@ -104,7 +104,7 @@ func main() {
 			"src/runtime/cgo",
 			"src/database",
 			"src/image",
-			"src/vendor/golang.org/x/net",
+			"src/vendor/github.com/sunnogo/net",
 			"test":
 			return remove()
 		}

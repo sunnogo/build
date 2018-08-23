@@ -22,8 +22,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"golang.org/x/build/app/cache"
-	"golang.org/x/build/app/key"
+	"github.com/sunnogo/build/app/cache"
+	"github.com/sunnogo/build/app/key"
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"
 	"google.golang.org/appengine/log"

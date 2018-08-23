@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/datastore"
-	"golang.org/x/build/buildenv"
+	"github.com/sunnogo/build/buildenv"
 )
 
 func usage() {

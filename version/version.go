@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/envutil"
+	"github.com/sunnogo/build/envutil"
 )
 
 func init() {

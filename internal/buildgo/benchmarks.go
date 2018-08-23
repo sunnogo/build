@@ -13,11 +13,11 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/cmd/coordinator/spanlog"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/internal/sourcecache"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/cmd/coordinator/spanlog"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/internal/sourcecache"
 )
 
 // benchRuns is the number of times to run each benchmark binary

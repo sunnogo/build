@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package main // import "golang.org/x/build/cmd/coordinator/buildongce"
+package main // import "github.com/sunnogo/build/cmd/coordinator/buildongce"
 
 import (
 	"bytes"
 	"testing"
 	"text/template"
 
-	"golang.org/x/build/buildenv"
+	"github.com/sunnogo/build/buildenv"
 )
 
 func TestDeploymentManagerManifest(t *testing.T) {

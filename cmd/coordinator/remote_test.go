@@ -16,8 +16,8 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
 )
 
 type TestBuildletPool struct {

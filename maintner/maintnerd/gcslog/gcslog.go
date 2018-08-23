@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/maintpb"
-	"golang.org/x/build/maintner/reclog"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/reclog"
 	"google.golang.org/api/iterator"
 )
 

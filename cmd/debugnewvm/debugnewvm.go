@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/internal/buildgo"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/internal/buildgo"
+	"github.com/sunnogo/oauth2"
 	compute "google.golang.org/api/compute/v1"
 )
 

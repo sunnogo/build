@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/build/cmd/coordinator/metrics"
+	"github.com/sunnogo/build/cmd/coordinator/metrics"
 	"google.golang.org/genproto/googleapis/api/label"
 	metpb "google.golang.org/genproto/googleapis/api/metric"
 )

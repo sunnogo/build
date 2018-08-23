@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build"
-	"golang.org/x/build/buildenv"
+	"github.com/sunnogo/build"
+	"github.com/sunnogo/build/buildenv"
 )
 
 type UserPass struct {

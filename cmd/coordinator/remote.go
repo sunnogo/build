@@ -4,7 +4,7 @@
 
 // Code related to remote buildlets. See x/build/remote-buildlet.txt
 
-package main // import "golang.org/x/build/cmd/coordinator"
+package main // import "github.com/sunnogo/build/cmd/coordinator"
 
 import (
 	"bufio"
@@ -35,10 +35,10 @@ import (
 
 	"github.com/gliderlabs/ssh"
 	"github.com/kr/pty"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/internal/gophers"
-	gossh "golang.org/x/crypto/ssh"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/internal/gophers"
+	gossh "github.com/sunnogo/crypto/ssh"
 )
 
 var (

@@ -16,10 +16,10 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
 	"google.golang.org/api/compute/v1"
 )
 

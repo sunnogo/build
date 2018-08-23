@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	"golang.org/x/build/maintner/maintpb"
-	"golang.org/x/build/maintner/reclog"
+	"github.com/sunnogo/protobuf/proto"
+	"github.com/sunnogo/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/reclog"
 )
 
 // A MutationLogger logs mutations.

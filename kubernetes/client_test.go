@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"golang.org/x/build/kubernetes"
-	"golang.org/x/build/kubernetes/api"
+	"github.com/sunnogo/build/kubernetes"
+	"github.com/sunnogo/build/kubernetes/api"
 )
 
 type handlers []func(w http.ResponseWriter, r *http.Request) error

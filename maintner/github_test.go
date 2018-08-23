@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/ptypes"
-	"github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/sunnogo/protobuf/ptypes"
+	"github.com/sunnogo/protobuf/ptypes/timestamp"
 
-	"golang.org/x/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/maintpb"
 )
 
 func TestParseGithubEvents(t *testing.T) {

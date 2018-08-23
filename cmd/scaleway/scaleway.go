@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"go4.org/types"
-	revtype "golang.org/x/build/types"
+	revtype "github.com/sunnogo/build/types"
 )
 
 var (

@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/maintner"
 )
 
 const (

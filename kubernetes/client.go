@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/kubernetes/api"
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/sunnogo/build/kubernetes/api"
+	"github.com/sunnogo/net/context/ctxhttp"
 )
 
 // Client is a client for the Kubernetes master.

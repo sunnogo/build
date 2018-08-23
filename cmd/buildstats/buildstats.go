@@ -5,15 +5,15 @@
 // The buildstats command syncs build logs from Datastore to Bigquery.
 //
 // It will eventually also do more stats.
-package main // import "golang.org/x/build/cmd/buildstats"
+package main // import "github.com/sunnogo/build/cmd/buildstats"
 
 import (
 	"context"
 	"flag"
 	"log"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/internal/buildstats"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/internal/buildstats"
 )
 
 var (

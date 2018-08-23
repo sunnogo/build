@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/build/buildlet"
+	"github.com/sunnogo/build/buildlet"
 )
 
 func push(args []string) error {

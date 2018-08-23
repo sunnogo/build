@@ -27,8 +27,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/maintner"
 )
 
 var releaseTargets = []string{
@@ -529,7 +529,7 @@ func (w *Work) buildReleaseBinary() {
 		w.log.Panic(err)
 	}
 	r := w.runner(w.Dir, "GOPATH="+gopath, "GOBIN="+filepath.Join(gopath, "bin"))
-	r.run("go", "get", "golang.org/x/build/cmd/release")
+	r.run("go", "get", "github.com/sunnogo/build/cmd/release")
 	w.ReleaseBinary = filepath.Join(gopath, "bin/release")
 }
 

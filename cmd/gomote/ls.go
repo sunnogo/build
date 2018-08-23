@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/build/buildlet"
+	"github.com/sunnogo/build/buildlet"
 )
 
 func ls(args []string) error {

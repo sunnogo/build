@@ -89,8 +89,8 @@ import (
 	"os"
 	"sort"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/buildlet"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 
 	"github.com/coreos/go-systemd/activation"
 	"github.com/coreos/go-systemd/daemon"
-	"golang.org/x/build/autocertcache"
-	"golang.org/x/crypto/acme"
-	"golang.org/x/crypto/acme/autocert"
+	"github.com/sunnogo/build/autocertcache"
+	"github.com/sunnogo/crypto/acme"
+	"github.com/sunnogo/crypto/acme/autocert"
 )
 
 var (

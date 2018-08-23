@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/types"
+	"github.com/sunnogo/build/types"
 )
 
 func usage() {

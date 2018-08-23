@@ -43,10 +43,10 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/revdial"
-	"golang.org/x/build/types"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/revdial"
+	"github.com/sunnogo/build/types"
 )
 
 const minBuildletVersion = 1

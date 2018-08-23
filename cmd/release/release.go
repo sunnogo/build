@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
+	"github.com/sunnogo/build"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
 )
 
 var (
@@ -117,7 +117,7 @@ func findReleaselet() error {
 	}
 
 	// Then, try to locate the release command in the workspace.
-	const importPath = "golang.org/x/build/cmd/release"
+	const importPath = "github.com/sunnogo/build/cmd/release"
 	pkg, err := gobuild.Import(importPath, "", gobuild.FindOnly)
 	if err != nil {
 		return fmt.Errorf("finding %q: %v", importPath, err)
@@ -237,12 +237,12 @@ var builds = []*Build{
 }
 
 const (
-	toolsRepo = "golang.org/x/tools"
+	toolsRepo = "github.com/sunnogo/tools"
 	tourRepo  = "golang.org/x/tour"
 )
 
 var toolPaths = []string{
-	"golang.org/x/tools/cmd/godoc",
+	"github.com/sunnogo/tools/cmd/godoc",
 	"golang.org/x/tour/gotour",
 }
 

@@ -12,7 +12,7 @@ import (
 	"os"
 	"runtime"
 
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 )
 
 func init() {

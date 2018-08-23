@@ -15,8 +15,8 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/internal/buildgo"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/internal/buildgo"
 )
 
 func init() {

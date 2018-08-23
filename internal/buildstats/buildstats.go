@@ -4,7 +4,7 @@
 
 // Package buildstats contains code to sync the coordinator's build
 // logs from Datastore to BigQuery.
-package buildstats // import "golang.org/x/build/internal/buildstats"
+package buildstats // import "github.com/sunnogo/build/internal/buildstats"
 import (
 	"context"
 	"fmt"
@@ -14,8 +14,8 @@ import (
 
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/datastore"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/types"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/types"
 	"google.golang.org/api/googleapi"
 	"google.golang.org/api/iterator"
 )

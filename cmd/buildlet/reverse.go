@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build"
-	"golang.org/x/build/revdial"
+	"github.com/sunnogo/build"
+	"github.com/sunnogo/build/revdial"
 )
 
 // mode is either a BuildConfig or HostConfig name (map key in x/build/dashboard/builders.go)

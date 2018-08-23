@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/maintner"
 )
 
 const issueNumGerritUserMapping = 21017 // Special sign-up issue.

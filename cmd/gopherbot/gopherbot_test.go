@@ -12,7 +12,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-github/github"
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/maintner"
 )
 
 func TestLabelCommandsFromComments(t *testing.T) {

@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/protobuf/ptypes"
-	"github.com/golang/protobuf/ptypes/timestamp"
+	"github.com/sunnogo/protobuf/ptypes"
+	"github.com/sunnogo/protobuf/ptypes/timestamp"
 
-	"golang.org/x/build/maintner/maintpb"
+	"github.com/sunnogo/build/maintner/maintpb"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/time/rate"
 )

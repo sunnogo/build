@@ -9,7 +9,7 @@
 //
 // For an overview of the Go build system, see the README at
 // the root of the x/build repo.
-package main // import "golang.org/x/build/cmd/coordinator"
+package main // import "github.com/sunnogo/build/cmd/coordinator"
 
 import (
 	"bytes"
@@ -47,19 +47,19 @@ import (
 
 	"cloud.google.com/go/errorreporting"
 	"cloud.google.com/go/storage"
-	"golang.org/x/build"
-	"golang.org/x/build/autocertcache"
-	"golang.org/x/build/buildenv"
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/cmd/coordinator/spanlog"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/internal/buildgo"
-	"golang.org/x/build/internal/sourcecache"
-	"golang.org/x/build/livelog"
-	"golang.org/x/build/maintner/maintnerd/apipb"
-	"golang.org/x/build/types"
-	"golang.org/x/crypto/acme/autocert"
+	"github.com/sunnogo/build"
+	"github.com/sunnogo/build/autocertcache"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/cmd/coordinator/spanlog"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/internal/buildgo"
+	"github.com/sunnogo/build/internal/sourcecache"
+	"github.com/sunnogo/build/livelog"
+	"github.com/sunnogo/build/maintner/maintnerd/apipb"
+	"github.com/sunnogo/build/types"
+	"github.com/sunnogo/crypto/acme/autocert"
 	perfstorage "golang.org/x/perf/storage"
 	"golang.org/x/time/rate"
 )

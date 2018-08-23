@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/devapp/owners"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
+	"github.com/sunnogo/build/devapp/owners"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
 )
 
 // A server is an http.Handler that serves content within staticDir at root and

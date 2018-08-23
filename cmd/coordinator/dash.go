@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/internal/buildgo"
+	"github.com/sunnogo/build/internal/buildgo"
 
 	"cloud.google.com/go/compute/metadata"
 )

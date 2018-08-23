@@ -28,10 +28,10 @@ import (
 	"cloud.google.com/go/compute/metadata"
 	"github.com/google/go-github/github"
 	"go4.org/strutil"
-	"golang.org/x/build/gerrit"
-	"golang.org/x/build/maintner"
-	"golang.org/x/build/maintner/godata"
-	"golang.org/x/oauth2"
+	"github.com/sunnogo/build/gerrit"
+	"github.com/sunnogo/build/maintner"
+	"github.com/sunnogo/build/maintner/godata"
+	"github.com/sunnogo/oauth2"
 )
 
 var (

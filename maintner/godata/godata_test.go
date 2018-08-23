@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/build/maintner"
+	"github.com/sunnogo/build/maintner"
 )
 
 func BenchmarkGet(b *testing.B) {

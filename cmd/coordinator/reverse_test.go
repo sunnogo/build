@@ -6,7 +6,7 @@
 
 // I get:
 // $ go test -v
-// ./reverse_test.go:15: can't find import: "golang.org/x/build/cmd/buildlet"
+// ./reverse_test.go:15: can't find import: "github.com/sunnogo/build/cmd/buildlet"
 
 package main
 
@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	buildletmain "golang.org/x/build/cmd/buildlet"
+	buildletmain "github.com/sunnogo/build/cmd/buildlet"
 )
 
 func TestReverseDial(t *testing.T) {

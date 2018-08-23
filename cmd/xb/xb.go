@@ -16,7 +16,7 @@
 //
 // Currently kubectl is the only supported subcommand.
 
-package main // import "golang.org/x/build/cmd/xb"
+package main // import "github.com/sunnogo/build/cmd/xb"
 
 import (
 	"bufio"
@@ -27,7 +27,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"golang.org/x/build/buildenv"
+	"github.com/sunnogo/build/buildenv"
 )
 
 var (
@@ -204,9 +204,9 @@ func runCmd() {
 }
 
 func buildStage0Container() {
-	dir, err := exec.Command("go", "list", "-f", "{{.Dir}}", "golang.org/x/build/cmd/buildlet/stage0").Output()
+	dir, err := exec.Command("go", "list", "-f", "{{.Dir}}", "github.com/sunnogo/build/cmd/buildlet/stage0").Output()
 	if err != nil {
-		log.Fatalf("xb: error running go list to find golang.org/x/build/stage0: %v", err)
+		log.Fatalf("xb: error running go list to find github.com/sunnogo/build/stage0: %v", err)
 	}
 
 	cmd := exec.Command("make", "docker")

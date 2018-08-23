@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/build/kubernetes"
-	"golang.org/x/build/kubernetes/gke"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
+	"github.com/sunnogo/build/kubernetes"
+	"github.com/sunnogo/build/kubernetes/gke"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
 	container "google.golang.org/api/container/v1"
 )

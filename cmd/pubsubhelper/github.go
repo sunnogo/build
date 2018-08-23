@@ -18,7 +18,7 @@ import (
 	"strings"
 
 	"cloud.google.com/go/compute/metadata"
-	"golang.org/x/build/cmd/pubsubhelper/pubsubtypes"
+	"github.com/sunnogo/build/cmd/pubsubhelper/pubsubtypes"
 )
 
 func handleGithubWebhook(w http.ResponseWriter, r *http.Request) {

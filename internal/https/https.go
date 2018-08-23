@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package https contains helpers for starting an HTTPS server.
-package https // import "golang.org/x/build/internal/https"
+package https // import "github.com/sunnogo/build/internal/https"
 
 import (
 	"context"
@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/build/autocertcache"
-	"golang.org/x/crypto/acme/autocert"
-	"golang.org/x/net/http2"
+	"github.com/sunnogo/build/autocertcache"
+	"github.com/sunnogo/crypto/acme/autocert"
+	"github.com/sunnogo/net/http2"
 )
 
 // Options are the configuration parameters for the HTTP(S) server.

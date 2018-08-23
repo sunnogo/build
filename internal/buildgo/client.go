@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"sync"
 
-	"golang.org/x/build/buildenv"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
+	"github.com/sunnogo/build/buildenv"
+	"github.com/sunnogo/oauth2"
+	"github.com/sunnogo/oauth2/google"
 	compute "google.golang.org/api/compute/v1"
 )
 

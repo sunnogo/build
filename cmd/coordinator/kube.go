@@ -17,12 +17,12 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/build/buildlet"
-	"golang.org/x/build/dashboard"
-	"golang.org/x/build/internal/sourcecache"
-	"golang.org/x/build/kubernetes"
-	"golang.org/x/build/kubernetes/api"
-	"golang.org/x/build/kubernetes/gke"
+	"github.com/sunnogo/build/buildlet"
+	"github.com/sunnogo/build/dashboard"
+	"github.com/sunnogo/build/internal/sourcecache"
+	"github.com/sunnogo/build/kubernetes"
+	"github.com/sunnogo/build/kubernetes/api"
+	"github.com/sunnogo/build/kubernetes/gke"
 	container "google.golang.org/api/container/v1"
 )
 

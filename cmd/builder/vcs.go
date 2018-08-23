@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/go/vcs"
+	"github.com/sunnogo/tools/go/vcs"
 )
 
 // Repo represents a git repository.

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/build/cmd/pubsubhelper/pubsubtypes"
+	"github.com/sunnogo/build/cmd/pubsubhelper/pubsubtypes"
 )
 
 func (c *Corpus) activityChan(topic string) chan struct{} {
@@ -42,7 +42,7 @@ func (c *Corpus) fire(topic string) {
 }
 
 // StartPubSubHelperSubscribe starts subscribing to a
-// golang.org/x/build/cmd/pubsubhelper server, such
+// github.com/sunnogo/build/cmd/pubsubhelper server, such
 // as https://pubsubhelper.golang.org
 func (c *Corpus) StartPubSubHelperSubscribe(urlBase string) {
 	go c.subscribeLoop(urlBase)

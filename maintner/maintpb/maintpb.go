@@ -9,7 +9,7 @@ package maintpb
 // - have the protoc binary in your $PATH
 // - go get grpc-codegen.go4.org/protoc-gen-go4grpc
 //
-// See https://github.com/golang/protobuf#installation for how to install
+// See https://github.com/sunnogo/protobuf#installation for how to install
 // the protoc binary.
 
 //go:generate protoc --proto_path=$GOPATH/src:. --go4grpc_out=plugins=grpc:. maintner.proto

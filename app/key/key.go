@@ -10,8 +10,8 @@ import (
 	"context"
 	"sync"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
 )
 
 var theKey struct {

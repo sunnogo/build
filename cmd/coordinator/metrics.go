@@ -12,8 +12,8 @@ import (
 	"github.com/sunnogo/build/cmd/coordinator/metrics"
 
 	"github.com/sunnogo/protobuf/ptypes"
-	metpb "google.golang.org/genproto/googleapis/api/metric"
-	monpb "google.golang.org/genproto/googleapis/monitoring/v3"
+	metpb "github.com/sunnogo/go-genproto/googleapis/api/metric"
+	monpb "github.com/sunnogo/go-genproto/googleapis/monitoring/v3"
 )
 
 // reportMetrics gathers and reports buildlet metrics to Stackdriver.

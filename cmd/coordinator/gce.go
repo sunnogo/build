@@ -38,8 +38,8 @@ import (
 	"github.com/sunnogo/build/internal/lru"
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	compute "google.golang.org/api/compute/v1"
-	"google.golang.org/api/googleapi"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
+	"github.com/sunnogo/google-api-go-client/googleapi"
 )
 
 func init() {
@@ -504,8 +504,8 @@ func (p *gceBuildletPool) cleanUpOldVMs() {
 	}
 
 	// TODO(bradfitz): remove this list and just query it from the compute API?
-	// http://godoc.org/google.golang.org/api/compute/v1#RegionsService.Get
-	// and Region.Zones: http://godoc.org/google.golang.org/api/compute/v1#Region
+	// http://godoc.org/github.com/sunnogo/google-api-go-client/compute/v1#RegionsService.Get
+	// and Region.Zones: http://godoc.org/github.com/sunnogo/google-api-go-client/compute/v1#Region
 
 	for {
 		for _, zone := range buildEnv.ZonesToClean {

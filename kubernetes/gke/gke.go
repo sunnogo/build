@@ -22,8 +22,8 @@ import (
 	"github.com/sunnogo/build/kubernetes"
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	compute "google.golang.org/api/compute/v1"
-	"google.golang.org/api/container/v1"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
+	"github.com/sunnogo/google-api-go-client/container/v1"
 )
 
 // ClientOpt represents an option that can be passed to the Client function.

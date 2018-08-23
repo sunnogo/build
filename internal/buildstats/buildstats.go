@@ -16,8 +16,8 @@ import (
 	"cloud.google.com/go/datastore"
 	"github.com/sunnogo/build/buildenv"
 	"github.com/sunnogo/build/types"
-	"google.golang.org/api/googleapi"
-	"google.golang.org/api/iterator"
+	"github.com/sunnogo/google-api-go-client/googleapi"
+	"github.com/sunnogo/google-api-go-client/iterator"
 )
 
 // Verbose controls logging verbosity.

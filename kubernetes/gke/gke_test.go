@@ -14,8 +14,8 @@ import (
 	"github.com/sunnogo/build/kubernetes/gke"
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	compute "google.golang.org/api/compute/v1"
-	container "google.golang.org/api/container/v1"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
+	container "github.com/sunnogo/google-api-go-client/container/v1"
 )
 
 // Tests NewClient and also Dialer.

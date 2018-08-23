@@ -19,9 +19,9 @@ import (
 	"github.com/sunnogo/build/buildenv"
 	"github.com/sunnogo/build/cmd/coordinator/metrics"
 	"github.com/sunnogo/build/internal/buildgo"
-	dm "google.golang.org/api/deploymentmanager/v2"
-	"google.golang.org/api/option"
-	monpb "google.golang.org/genproto/googleapis/monitoring/v3"
+	dm "github.com/sunnogo/google-api-go-client/deploymentmanager/v2"
+	"github.com/sunnogo/google-api-go-client/option"
+	monpb "github.com/sunnogo/go-genproto/googleapis/monitoring/v3"
 )
 
 var (

@@ -12,7 +12,7 @@ import (
 	"github.com/sunnogo/build/buildenv"
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	compute "google.golang.org/api/compute/v1"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
 )
 
 // Client is an authenticated client to the Go build system.

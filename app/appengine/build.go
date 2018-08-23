@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/appengine/datastore"
+	"github.com/sunnogo/appengine/datastore"
 
 	"github.com/sunnogo/build/app/cache"
 

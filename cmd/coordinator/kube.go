@@ -23,7 +23,7 @@ import (
 	"github.com/sunnogo/build/kubernetes"
 	"github.com/sunnogo/build/kubernetes/api"
 	"github.com/sunnogo/build/kubernetes/gke"
-	container "google.golang.org/api/container/v1"
+	container "github.com/sunnogo/google-api-go-client/container/v1"
 )
 
 /*

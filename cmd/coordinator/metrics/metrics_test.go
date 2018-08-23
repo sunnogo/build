@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/sunnogo/build/cmd/coordinator/metrics"
-	"google.golang.org/genproto/googleapis/api/label"
-	metpb "google.golang.org/genproto/googleapis/api/metric"
+	"github.com/sunnogo/go-genproto/googleapis/api/label"
+	metpb "github.com/sunnogo/go-genproto/googleapis/api/metric"
 )
 
 func TestMetricDescriptorPath(t *testing.T) {

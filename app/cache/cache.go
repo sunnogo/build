@@ -15,8 +15,8 @@ import (
 	"net/http"
 	"time"
 
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/memcache"
+	"github.com/sunnogo/appengine/log"
+	"github.com/sunnogo/appengine/memcache"
 )
 
 // TimeKey specifies the memcache entity that keeps the logical datastore time.

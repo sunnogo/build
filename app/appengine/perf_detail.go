@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
 )
 
 func init() {

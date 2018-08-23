@@ -27,7 +27,7 @@ import (
 	"github.com/sunnogo/build/maintner"
 	"github.com/sunnogo/build/maintner/maintpb"
 	"github.com/sunnogo/build/maintner/reclog"
-	"google.golang.org/api/iterator"
+	"github.com/sunnogo/google-api-go-client/iterator"
 )
 
 // targetObjectSize is the goal maximum size for each log segment on

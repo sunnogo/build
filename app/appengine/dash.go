@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	"google.golang.org/appengine"
+	"github.com/sunnogo/appengine"
 )
 
 func handleFunc(path string, h http.HandlerFunc) {

@@ -11,9 +11,9 @@ import (
 	"fmt"
 
 	monapi "cloud.google.com/go/monitoring/apiv3"
-	"google.golang.org/genproto/googleapis/api/label"
-	metpb "google.golang.org/genproto/googleapis/api/metric"
-	monpb "google.golang.org/genproto/googleapis/monitoring/v3"
+	"github.com/sunnogo/go-genproto/googleapis/api/label"
+	metpb "github.com/sunnogo/go-genproto/googleapis/api/metric"
+	monpb "github.com/sunnogo/go-genproto/googleapis/monitoring/v3"
 )
 
 // Metric defines a custom metric type used by Go build system.

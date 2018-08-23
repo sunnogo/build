@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/log"
+	"github.com/sunnogo/appengine/datastore"
+	"github.com/sunnogo/appengine/log"
 )
 
 var knownTags = map[string]string{

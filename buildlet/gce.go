@@ -20,7 +20,7 @@ import (
 	"github.com/sunnogo/build/dashboard"
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	"google.golang.org/api/compute/v1"
+	"github.com/sunnogo/google-api-go-client/compute/v1"
 )
 
 // GCEGate optionally specifies a function to run before any GCE API call.

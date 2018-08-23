@@ -18,8 +18,8 @@ import (
 
 	"github.com/sunnogo/oauth2"
 	"github.com/sunnogo/oauth2/google"
-	compute "google.golang.org/api/compute/v1"
-	oauth2api "google.golang.org/api/oauth2/v2"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
+	oauth2api "github.com/sunnogo/google-api-go-client/oauth2/v2"
 )
 
 const (

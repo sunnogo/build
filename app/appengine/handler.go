@@ -24,10 +24,10 @@ import (
 
 	"github.com/sunnogo/build/app/cache"
 	"github.com/sunnogo/build/app/key"
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/memcache"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
+	"github.com/sunnogo/appengine/log"
+	"github.com/sunnogo/appengine/memcache"
 )
 
 const (

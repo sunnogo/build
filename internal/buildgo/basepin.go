@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	compute "google.golang.org/api/compute/v1"
+	compute "github.com/sunnogo/google-api-go-client/compute/v1"
 )
 
 // MakeBasepinDisks looks at the list of all the project's VM images

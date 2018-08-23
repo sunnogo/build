@@ -25,7 +25,7 @@ import (
 
 	"cloud.google.com/go/storage"
 	"golang.org/x/sync/errgroup"
-	"google.golang.org/api/iterator"
+	"github.com/sunnogo/google-api-go-client/iterator"
 )
 
 const (

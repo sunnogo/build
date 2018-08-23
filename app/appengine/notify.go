@@ -19,11 +19,11 @@ import (
 	"strings"
 	"text/template"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/delay"
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/urlfetch"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
+	"github.com/sunnogo/appengine/delay"
+	"github.com/sunnogo/appengine/log"
+	"github.com/sunnogo/appengine/urlfetch"
 )
 
 const (

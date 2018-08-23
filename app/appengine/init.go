@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
+	"github.com/sunnogo/appengine"
+	"github.com/sunnogo/appengine/datastore"
 
 	"github.com/sunnogo/build/app/cache"
 	"github.com/sunnogo/build/app/key"
